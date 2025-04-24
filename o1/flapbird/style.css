@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #70c5ce; /* Sky color */
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #70c5ce; /* Sky color */
+    border: 2px solid #000; /* Border around the canvas */
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Arial', sans-serif;
+    display: none; /* Hidden by default */
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
